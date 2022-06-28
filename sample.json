@@ -1,0 +1,135 @@
+[
+    {
+        "model": "Mall",
+        "fee": {
+            "charge": "PerHour",
+            "vehicles": [
+                {
+                    "kind": "Motorcycle",
+                    "rates": [
+                        {
+                            "rate": 10
+                        }
+                    ]
+                },
+                {
+                    "kind": "Car/Suv",
+                    "rates": [
+                        {
+                            "rate": 20
+                        }
+                    ]
+                },
+                {
+                    "kind": "Bus/Truck",
+                    "rates": [
+                        {
+                            "rate": 50
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "model": "Stadium",
+        "fee": {
+            "charge": "PerHour",
+            "vehicles": [
+                {
+                    "kind": "Motorcycle",
+                    "rates": [
+                        {
+                            "from": 0,
+                            "till": 4,
+                            "rate": 30
+                        },
+                        {
+                            "from": 4,
+                            "till": 12,
+                            "rate": 60
+                        },
+                        {
+                            "from": 12,
+                            "till": 0,
+                            "rate": 100
+                        }
+                    ]
+                },
+                {
+                    "kind": "Car/Suv",
+                    "rates": [
+                        {
+                            "from": 0,
+                            "till": 4,
+                            "rate": 60
+                        },
+                        {
+                            "from": 4,
+                            "till": 12,
+                            "rate": 120
+                        },
+                        {
+                            "from": 12,
+                            "till": 0,
+                            "rate": 200
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "model": "Airport",
+        "fee": {
+            "charge": "PerDay",
+            "vehicles": [
+                {
+                    "kind": "Motorcycle",
+                    "rates": [
+                        {
+                            "from": 0,
+                            "till": 1,
+                            "rate": 0
+                        },
+                        {
+                            "from": 1,
+                            "till": 8,
+                            "rate": 40
+                        },
+                        {
+                            "from": 8,
+                            "till": 24,
+                            "rate": 60
+                        },
+                        {
+                            "from": 24,
+                            "till": 0,
+                            "rate": 80
+                        }
+                    ]
+                },
+                {
+                    "kind": "Car/Suv",
+                    "rates": [
+                        {
+                            "from": 0,
+                            "till": 12,
+                            "rate": 60
+                        },
+                        {
+                            "from": 12,
+                            "till": 24,
+                            "rate": 80
+                        },
+                        {
+                            "from": 24,
+                            "till": 0,
+                            "rate": 100
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]
